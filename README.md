@@ -20,10 +20,10 @@ Observations: Lower accuracy due to class imbalance, especially for higher cigar
 2- Incorporates a multi-layer perceptron with ReLU activation and softmax for output. <br>
 - **Accuracy: 82.46%**  <br>
 
-**Observations:** The model effectively captures non-linear relationships and improves predictive accuracy by handling augmented and balanced data. <br>
-**Key Features** : Class Imbalance Handling: Data augmentation was applied to increase the sample size of underrepresented classes (21–30 and 31+ cigarettes/day).
+3- Observations: The model effectively captures non-linear relationships and improves predictive accuracy by handling augmented and balanced data. <br>
+4- Key Features: Class Imbalance Handling: Data augmentation was applied to increase the sample size of underrepresented classes (21–30 and 31+ cigarettes/day). <br>
 
-Comparative Analysis: <br>
+## Comparative Analysis: <br>
 Logistic regression and neural network approaches are compared to demonstrate the effectiveness of more advanced models for complex datasets. <br>
 Confusion Matrix Visualization: Confusion matrices are used to evaluate classification performance for both methods.
 
