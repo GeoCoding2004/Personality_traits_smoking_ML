@@ -9,12 +9,14 @@ The dataset includes personality trait responses and smoking behavior data. Pers
 31+ cigarettes/day
 
 ## Methods
-Multinomial Logistic Regression (Softmax model):
+### Multinomial Logistic Regression (Softmax model):
 A straightforward classification model is used as a baseline.
 Accuracy: 53.65%
 Observations: Lower accuracy due to class imbalance, especially for higher cigarette consumption categories.
-Fully Connected Neural Network:
 
+<br>
+
+### Fully Connected Neural Network:
 Addresses class imbalance using data augmentation for underrepresented categories.
 Incorporates a multi-layer perceptron with ReLU activation and softmax for output.
 Accuracy: 82.46%
