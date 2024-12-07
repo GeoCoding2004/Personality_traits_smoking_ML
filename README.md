@@ -16,31 +16,22 @@ Observations: Lower accuracy due to class imbalance, especially for higher cigar
 
 
 ### Fully Connected Neural Network:
-Addresses class imbalance using data augmentation for underrepresented categories.
-Incorporates a multi-layer perceptron with ReLU activation and softmax for output.
-Accuracy: 82.46%
-Observations: The model effectively captures non-linear relationships and improves predictive accuracy by handling augmented and balanced data.
-Key Features
-Class Imbalance Handling:
-Data augmentation was applied to increase the sample size of underrepresented classes (21–30 and 31+ cigarettes/day).
-Comparative Analysis:
-Logistic regression and neural network approaches are compared to demonstrate the effectiveness of more advanced models for complex datasets.
-Confusion Matrix Visualization:
-Confusion matrices are used to evaluate classification performance for both methods.
-Results
-Logistic regression is a simpler approach but struggles with imbalanced data, achieving an accuracy of 53.65%.
-The neural network, coupled with data augmentation, significantly outperforms logistic regression, achieving an accuracy of 82.46%.
-These results highlight the importance of addressing class imbalance and selecting appropriate modeling techniques.
-Conclusion
+1- Addresses class imbalance using data augmentation for underrepresented categories. <br>
+2- Incorporates a multi-layer perceptron with ReLU activation and softmax for output. <br>
+- **Accuracy: 82.46%**  <br>
+
+**Observations:** The model effectively captures non-linear relationships and improves predictive accuracy by handling augmented and balanced data. <br>
+**Key Features** : Class Imbalance Handling: Data augmentation was applied to increase the sample size of underrepresented classes (21–30 and 31+ cigarettes/day).
+
+Comparative Analysis: <br>
+Logistic regression and neural network approaches are compared to demonstrate the effectiveness of more advanced models for complex datasets. <br>
+Confusion Matrix Visualization: Confusion matrices are used to evaluate classification performance for both methods.
+
+**Results**
+Logistic regression is a simpler approach but struggles with imbalanced data, achieving an accuracy of 53.65%. <br>
+The neural network, coupled with data augmentation, significantly outperforms logistic regression, achieving an accuracy of 82.46%. <br>
+**These results highlight the importance of addressing class imbalance and selecting appropriate modeling techniques.**
+
+## Conclusion
 The findings demonstrate that personality traits are significant predictors of smoking behavior. The project underscores the importance of addressing class imbalance and highlights the advantages of neural networks in capturing complex relationships in data.
 
-Contents
-Data Preprocessing: Data mapping, handling missing values, and scaling.
-Model Training and Evaluation: Implementation of logistic regression and neural networks.
-Performance Comparison: Detailed analysis of both approaches.
-Confusion Matrix Visualization: Evaluation of class-wise performance.
-Future Directions
-Explore additional features or data sources to improve predictions further.
-Investigate other machine learning models like ensemble methods (e.g., random forests, XGBoost).
-Apply explainability techniques to interpret the influence of specific personality traits on smoking behavior.
-This notebook serves as a comprehensive guide for exploring the impact of personality traits on smoking behavior and demonstrates the application of machine learning techniques to tackle real-world predictive tasks.
