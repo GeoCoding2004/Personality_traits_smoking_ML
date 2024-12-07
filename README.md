@@ -14,7 +14,6 @@ A straightforward classification model is used as a baseline.
 Accuracy: 53.65%
 Observations: Lower accuracy due to class imbalance, especially for higher cigarette consumption categories.
 
-<br>
 
 ### Fully Connected Neural Network:
 Addresses class imbalance using data augmentation for underrepresented categories.
